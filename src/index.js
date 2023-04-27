@@ -17,7 +17,7 @@ const formatLanguageCode = (code) => {
     } else if (p.length === 3) {
       p[0] = p[0].toLowerCase()
 
-      // if lenght 2 guess it's a country
+      // if length 2 guess it's a country
       if (p[1].length === 2) p[1] = p[1].toUpperCase()
       if (p[0] !== 'sgn' && p[2].length === 2) p[2] = p[2].toUpperCase()
 
